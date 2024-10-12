@@ -12,6 +12,6 @@ Tatiana: input
 
 Jukka: operations
 2 - displaying notes
-2 - adding notes
-2 - removing notes
-2 - error-messages, if empty note etc
+1 - adding notes
+3 - removing notes
+3 - error-messages, if empty note etc
