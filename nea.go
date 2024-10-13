@@ -9,7 +9,15 @@ func main() {
 
 	// check if the number of arguments are correct, or if the user asks for help
 	if len(os.Args) != 2 || os.Args[1] == "help" {
-		fmt.Println("Give the name of the notes collection as an argument.\n Example: ./notestool my_notes . This will create a new note called my_notes, or open an existing one already named the same. \n You may only give one argument.")
+		fmt.Println("Usage: ./notestool [COLLECTION_NAME]")
+		fmt.Println()
+		fmt.Println("Description:\nThis command-line tool allows you to look, modify and delete your notes efficiently.")
+		fmt.Println()
+		fmt.Println("Arguments:\nCOLLECTION_NAME: The name of the collection of notes you want to create or access.")
+		fmt.Println()
+		fmt.Println("Example:\nTo create a new collection named my_notes or open an existing one named my_notes:\nType: ./notestool my_notes")
+		fmt.Println()
+		fmt.Println("Note: Only one argument is allowed. If no arguments or two or more arguments are provided, this help message is displayd.")
 		return // exit if the arguments are invalid
 	}
 
