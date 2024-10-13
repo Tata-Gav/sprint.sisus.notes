@@ -43,6 +43,7 @@ func main() {
 	menuLoop(notes, collectionName)
 }
 
+
 //Nea
 // Function to load notes
 func loadNotes(filename string) []string{
